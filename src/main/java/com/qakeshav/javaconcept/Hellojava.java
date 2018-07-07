@@ -5,6 +5,8 @@ public class Hellojava {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 System.out.println("This is java concept package ");
+		System.out.println("This is java concept package ");
+		System.out.println("This is java concept package ");
 	}
 
 }
