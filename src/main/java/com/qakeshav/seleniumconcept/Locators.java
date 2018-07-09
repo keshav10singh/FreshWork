@@ -38,12 +38,23 @@ public class Locators {
 		System.out.println("Sucessfully Done 4");
 		driver.findElement(By.xpath("//input[@type='email' and @name='email' and @tabindex='1']")).clear();
 		
+		//Xpath using contains
+		//String text1=driver.findElement(By.xpath("//div[contains(text(),'Create a new account')]")).getText();
+		//System.out.println(text1);
+		//Boolean bol=driver.findElement(By.xpath("//div[text()='Create a new account']")).equals("Create a new account");
+		//System.out.println(bol);
+		
 		// Locating element by CSS
 		driver.findElement(By.cssSelector("#email")).sendKeys("hvms.in@gmail.com");
 		System.out.println("Sucessfully Done 5");
 		driver.findElement(By.cssSelector("input[id='email']")).clear();
 		driver.findElement(By.cssSelector("input[id=email][data-testid=royal_email][name=email]")).sendKeys("hvms.in@gmail.com");
 		System.out.println("Sucessfully Done 6");
+		//Starts  with consition ^^ with symbol
+		driver.findElement(By.cssSelector("input[class^='inputtext'][name='reg_email__']")).sendKeys("979144451");
+		System.out.println("Sucessfully Done 7");
+		//ends with symbol with $ sign
+		driver.findElement(By.cssSelector("input[aria-label$='or email address']")).clear();
 		driver.close();
 	}
 
