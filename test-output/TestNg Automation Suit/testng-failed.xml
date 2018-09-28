@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNg Automation Suit]">
+  <test thread-count="5" name="TestNg Automation ParameterTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="emailId" value="keshavsingh1@mailinator.com"/>
+    <parameter name="url" value="https://prelive.scheduleage.com/home/index#login "/>
+    <classes>
+      <class name="com.qakeshav.parameterTestUsingTestng.ParameterTest">
+        <methods>
+          <include name="ScheduleAgelogintest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qakeshav.parameterTestUsingTestng.ParameterTest -->
+    </classes>
+  </test> <!-- TestNg Automation ParameterTest(failed) -->
+</suite> <!-- Failed suite [TestNg Automation Suit] -->

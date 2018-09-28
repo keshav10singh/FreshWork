@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="9" started-at="2018-09-27T18:39:55Z" finished-at="2018-09-27T18:39:55Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="9" started-at="2018-09-27T18:39:55Z" finished-at="2018-09-27T18:39:55Z">
+      <class name="com.qakeshav.test.InvocationCount">
+        <test-method status="PASS" signature="incovationcount()[pri:0, instance:com.qakeshav.test.InvocationCount@70cf32e3]" name="incovationcount" duration-ms="2" started-at="2018-09-28T00:09:55Z" finished-at="2018-09-28T00:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incovationcount -->
+        <test-method status="PASS" signature="incovationcount()[pri:0, instance:com.qakeshav.test.InvocationCount@70cf32e3]" name="incovationcount" duration-ms="3" started-at="2018-09-28T00:09:55Z" finished-at="2018-09-28T00:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incovationcount -->
+        <test-method status="PASS" signature="incovationcount()[pri:0, instance:com.qakeshav.test.InvocationCount@70cf32e3]" name="incovationcount" duration-ms="1" started-at="2018-09-28T00:09:55Z" finished-at="2018-09-28T00:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incovationcount -->
+        <test-method status="PASS" signature="incovationcount()[pri:0, instance:com.qakeshav.test.InvocationCount@70cf32e3]" name="incovationcount" duration-ms="0" started-at="2018-09-28T00:09:55Z" finished-at="2018-09-28T00:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incovationcount -->
+        <test-method status="PASS" signature="incovationcount()[pri:0, instance:com.qakeshav.test.InvocationCount@70cf32e3]" name="incovationcount" duration-ms="0" started-at="2018-09-28T00:09:55Z" finished-at="2018-09-28T00:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incovationcount -->
+      </class> <!-- com.qakeshav.test.InvocationCount -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

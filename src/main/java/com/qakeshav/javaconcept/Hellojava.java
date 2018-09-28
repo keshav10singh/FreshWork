@@ -12,7 +12,7 @@ public class Hellojava {
 	
 	public Hellojava(int i,int j) {
 		System.out.println("Parent Class Cons with value of i: "+i);
-		System.out.println("Parent Class Cons with value of i: "+j);
+		System.out.println("Parent Class Cons with value of j: "+j);
 	}
 	
 	

@@ -9,7 +9,7 @@ public class WrapperClass {
 			//Data conversion: String to int
 			//Wrapper Classes:Interger,Double,CharacterBoolean
 			int y=Integer.parseInt(x);
-			System.out.println(y);
+			System.out.println(y+20);
 			
 			//String to Double
 			

@@ -1,0 +1,19 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNg Automation Suit">
+	
+	<test name="TestNg Automation ParameterTest">
+		<parameter name="browser" value="firefox"/>
+	<parameter name="url" value="https://prelive.scheduleage.com/home/index#login "/>
+	<parameter name="emailId" value="keshavsingh1@mailinator.com"/>
+		<classes>
+			<class name="com.qakeshav.parameterTestUsingTestng.ParameterTest" />
+			
+		<!--	<class name="com.qakeshav.test.CpmTest" />>-->
+		<!--	<class name="com.qakeshav.test.TestNgBasic" />>-->
+		<!--	<class name="com.qakeshav.test.TestNgFeatures" />-->
+		<!--	<class name="com.qakeshav.test.InvocationCount" />-->
+			
+		</classes>
+	</test> 
+</suite> <!-- Suite -->
